@@ -218,7 +218,7 @@ Before you start, please make sure your changes are in demand. The best for that
 
 Automation is licensed under the Apache License, Version 2.0. See [LICENSE](https://github.com/kubecub/automation/tree/main/LICENSE) for the full license text.
 
-[![FOSSA Status](https://app.fossa.com/projects/git%2Bgithub.com%2Fkubecub%2Fautomation?utm_source=share_link)](https://app.fossa.com/projects/git%2Bgithub.com%2Fkubecub%2Fautomation?ref=badge_large)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fkubecub%2Fautomation.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fkubecub%2Fautomation?ref=badge_large)
 
 
 ## 🔮 Thanks to our contributors!
