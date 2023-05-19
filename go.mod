@@ -1,3 +1,3 @@
-module github.com/kubecub/go-project-layout
+module github.com/kubecub/automation
 
 go 1.18
