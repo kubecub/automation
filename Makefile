@@ -65,12 +65,12 @@ LICENSE_TEMPLATE ?= $(ROOT_DIR)/scripts/LICENSE_TEMPLATES
 .PHONY: all
 all: tidy add-copyright lint cover build
 
-## build: Build binaries by default.
+## build: Compile the existing Go packages.
 .PHONY: build
 build: 
-	@echo "$(shell go version)"
-	@echo "===========> Building binary $(BUILDAPP) *[Git Info]: $(VERSION)-$(GIT_COMMIT)"
-	@export CGO_ENABLED=0 && chmod +x ./scripts/build.sh && ./scripts/build.sh
+	@$(GO) version
+	@echo "===========> Building the existing Go packages"
+	@CGO_ENABLED=0 $(GO) build ./...
 
 ## build.%: Builds a binary of the specified directory.
 .PHONY: build.%
