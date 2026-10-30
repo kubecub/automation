@@ -10,9 +10,8 @@
 
 <p align=center>
 <a href="https://goreportcard.com/report/github.com/kubecub/automation"><img src="https://goreportcard.com/badge/github.com/kubecub/automation" alt="A+"></a>
-<a href="https://github.com/issues?q=org%kubecub+is%3Aissue+label%3A%22good+first+issue%22+no%3Aassignee"><img src="https://img.shields.io/github/issues/kubecub/automation/good%20first%20issue?logo=%22github%22" alt="good first"></a>
+<a href="https://github.com/search?q=org%3Akubecub+is%3Aissue+label%3A%22good+first+issue%22+no%3Aassignee&amp;type=issues"><img src="https://img.shields.io/github/issues/kubecub/automation/good%20first%20issue?logo=%22github%22" alt="good first"></a>
 <a href="https://github.com/kubecub/automation"><img src="https://img.shields.io/github/stars/kubecub/automation.svg?style=flat&logo=github&colorB=deeppink&label=stars"></a>
-<a href="https://join.slack.com/t/kubecub/shared_invite/zt-1se0k2bae-lkYzz0_T~BYh3rjkvlcUqQ"><img src="https://img.shields.io/badge/Slack-100%2B-blueviolet?logo=slack&amp;logoColor=white"></a>
 <a href="https://github.com/kubecub/automation/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-Apache--2.0-green"></a>
 <a href="https://golang.org/"><img src="https://img.shields.io/badge/Language-Go-blue.svg"></a>
 </p>
@@ -211,7 +210,7 @@ kubecub Our goal is to build a top-level open source community. We have a set of
 
 If you'd like to contribute to this automation repository, please read our [contributor documentation](https://github.com/kubecub/automation/blob/main/CONTRIBUTING.md).
 
-Before you start, please make sure your changes are in demand. The best for that is to create a [new discussion](https://github.com/kubecub/automation/discussions/new/choose) OR [Slack Communication](https://join.slack.com/t/kubecub/shared_invite/zt-1se0k2bae-lkYzz0_T~BYh3rjkvlcUqQ), or if you find an issue, [report it](https://github.com/kubecub/automation/issues/new/choose) first.
+Before you start, please make sure your changes are in demand. Discuss proposed changes in the [project discussions](https://github.com/kubecub/automation/discussions), or [report an issue](https://github.com/kubecub/automation/issues) before working on a bug.
 
 
 ## 🚨 License
