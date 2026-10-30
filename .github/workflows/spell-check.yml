@@ -15,27 +15,7 @@ jobs:
     steps:
     - name: Checkout Actions Repository
       uses: actions/checkout@v2
-
-    - name: Check spelling of md
-      uses: crate-ci/typos@master
-      with: 
-        files: 
-            ./CONTIRIBUTING.md
-            ./README.md
-            
-    - name: Use custom config file
-      uses: crate-ci/typos@master
-      with: 
-        files: ./file.txt
-        config: ./myconfig.toml
-
-    - name: Ignore implicit configuration file
-      uses: crate-ci/typos@master
-      with: 
-        files: ./file.txt
-        isolated: true
-
-    - name: Writes changes in the local checkout
-      uses: crate-ci/typos@master
-      with: 
-        write_changes: true
+    - name: Check spelling of the existing Markdown documents
+      uses: crate-ci/typos@v1.50.2
+      with:
+        files: ./CONTRIBUTING.md ./README.md
