@@ -295,7 +295,7 @@ The documentation for automation includes:
 
 Please obey the following rules to better format the docs, which would greatly improve the reading experience.
 
-1. Please do not use Chinese punctuations in English docs, and vice versa.
+1. Please do not use Chinese punctuation in English docs, and vice versa.
 2. Please use upper case letters where applicable, like the first letter of sentences / headings, etc.
 3. Please specify a language for each Markdown code blocks, unless there's no associated languages.
 4. Please insert a whitespace between Chinese and English words.
