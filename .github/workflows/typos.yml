@@ -10,6 +10,5 @@ jobs:
       with:
         check_filenames: true
         skip: .git,*.png,*.jpg
-        ignore_words_file: .github/workflows/codespell_ignore_words.txt
-        paths: ./CONTRIBUTING.md ./README.md
+        path: ./CONTRIBUTING.md ./README.md
 

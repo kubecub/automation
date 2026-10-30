@@ -9,6 +9,7 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v2
     - name: Check for typos
-      run: ./tools/typos ./CONTRIBUTING.md ./README.md
-      working-directory: ./
+      uses: crate-ci/typos@v1.50.2
+      with:
+        files: ./CONTRIBUTING.md ./README.md
 
